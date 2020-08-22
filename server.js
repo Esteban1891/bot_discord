@@ -6,10 +6,10 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-    if (message.content.startsWith("-c")) {
-        message.channel.send("te amo cami");
+    if (message.content.startsWith("here your command for discord")) {
+        message.channel.send("here responsive");
     }
 
 });
 
-client.login("NzQ2NjEyODQ5ODYxOTg0Mjc2.X0C3Zg.lUSsBkNsO5sisrx4ZdyYfK4-dxc");
+client.login("here your token id");
